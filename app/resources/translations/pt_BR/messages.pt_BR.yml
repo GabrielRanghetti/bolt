@@ -1,4 +1,4 @@
-# app/resources/translations/pt_BR/messages.pt_BR.yml – generated on 2016-05-25 20:10:28 UTC
+# app/resources/translations/pt_BR/messages.pt_BR.yml – generated on 2016-05-26 13:16:49 UTC
 
 # Warning: Translations are in the process of being moved to a new keyword-based translation
 #          at the moment. This is an ongoing process. Translations currently in the 
@@ -9,31 +9,17 @@
 #          in order to prevent merge conflicts.
 
 #  no unused messages
-#  30 untranslated messages
+#  16 untranslated messages
 #  60 untranslated keyword based messages
-#  60 translations
+#  74 translations
 # 453 keyword based translations
 
-#--- 30 untranslated messages -------------------------------------------------
+#--- 16 untranslated messages -------------------------------------------------
 
-"Error reading extensions/composer.json file: %ERROR%": #
-"Extension package %NAME% base class '%CLASS%' does not implement \\\\Bolt\\\\Extension\\\\ExtensionInterface and has been skipped.": #
-"Extension package %NAME% has an invalid class '%CLASS%' and has been skipped.": #
-"Extension server returned an error: %errormessage%": #
-"Generic failure while testing connection to extension server: %errormessage%": #
-"Group": #
-"Groups": #
 "Invalid menu path (%PATH%) set in menu.yml. Does not match any configured contenttypes or routes.": #
 "Invalid menu path (%PATH%) set in menu.yml. Probably should be a link: instead!": #
-"Link": #
 "Menu item property \"add\" is deprecated. Use \"#\" under \"param\" instead.": #
-"Repeater": #
 "Selectentry": # "Select entry"
-"Slug": #
-"Tag": #
-"Tags": #
-"Teaser": #
-"Template": #
 "Testing connection to extension server failed: %errormessage%": #
 "The database needs to be updated/repaired. Go to 'Configuration' > '<a href=\"%link%\">Check Database</a>' to do this now.": #
 "The field %field% has been changed to \"%newValue%\"": #
@@ -110,7 +96,7 @@
 "page.extend.message.latest-version": # "The version listed below is the latest stable release as marked by the developer, which is compatible with the version of Bolt you are currently using."
 "page.extend.message.loading-disabled": # "Extensions loading has been disabled by an administrator in the %CONFIG% file. You may install, update and uninstall extensions but they will not load until this setting has been changed."
 
-#--- 60 translations ----------------------------------------------------------
+#--- 74 translations ----------------------------------------------------------
 
 "(default template)": "(template padrão)"
 "(no category)": "(sem categoria)"
@@ -140,26 +126,40 @@
 "Datetime": "Data e hora"
 "Detected Bolt version change to <b>%VERSION%</b>, and the cache has been cleared. Please <a href=\"%URI%\">check the database</a>, if you haven't done so already.": "Detectado alteração da versão Bolt para <b>%VERSION%</b>, e o cache foi limpado. Por favor <a href=\\\"%URI%\\\">verifique o banco de dados</a>, se já não tiver feito."
 "Do you really want to delete %FOLDERNAME%?": "Você realmente deseja deletar %FOLDERNAME%?"
+"Error reading extensions/composer.json file: %ERROR%": "Erro ao ler arquivo extensions/composer.json: %ERROR%"
 "Everybody": "Todos"
 "Excerpt": "Resumo"
 "Expand sidebar": "Expandir barra lateral"
 "Extend": "Extender"
+"Extension package %NAME% base class '%CLASS%' does not implement \\\\Bolt\\\\Extension\\\\ExtensionInterface and has been skipped.": "Classe base '%CLASS%' do pacote de extensão %NAME% não implementa \\\\\\\\Bolt\\\\\\\\Extension\\\\\\\\ExtensionInterface e foi ignorado."
+"Extension package %NAME% has an invalid class '%CLASS%' and has been skipped.": "Pacote de extensão %NAME% contém uma classe inválida '%CLASS%' e foi ignorado."
+"Extension server returned an error: %errormessage%": "Servidor de extensão retornou um erro: %errormessage%"
 "File": "Arquivo"
 "File '%file%' could not be uploaded (wrong/disallowed file type). Make sure the file extension is one of the following:": "O arquivo '%file%' não pode ser carregado (erro/tipo de arquivo não permitido). Certifique-se que a extensão é uma das seguintes:"
 "Filelist": "Lista de ficheiros"
 "Floatfield": "Campo flutuante"
+"Generic failure while testing connection to extension server: %errormessage%": "Falha genérica ao testar conexão para o servidor de extensão: %errormessage%"
 "Geolocation": "Geolocalização"
+"Group": "Grupo"
+"Groups": "Grupos"
 "Html": "HTML"
 "Image": "Imagem"
 "Imagelist": "Lista de imagens"
 "Integerfield": "Campo inteiro"
+"Link": "Link"
 "Markdown": "Markdown"
 "Multiselect": "Selecionar vários"
+"Repeater": "Repetidor"
 "Select a page": "Selecione uma página"
 "Select zero or more pages": "Selecione zero ou mais páginas"
 "Selectfield": "Selecionar campo"
 "Skipped <tt>%key%</tt> (already has records)": "Ignorado <tt>%key%</tt> (já possui um registro)"
 "Skipped <tt>%key%</tt> (not checked)": "Ignorado <tt>%key%</tt> (não marcado)"
+"Slug": "Slug"
+"Tag": "Tag"
+"Tags": "Tags"
+"Teaser": "Prévia"
+"Template": "Template"
 "Textarea": "Área de texto"
 "The identifier and slug for '%taxonomytype%' are the not the same ('%slug%' vs. '%taxonomytype%'). Please edit taxonomy.yml, and make them match to prevent inconsistencies between database storage and your templates.": "O identificador e o slug para '%taxonomytype%' não são os mesmos ('%slug%' vs. '%taxonomytype%'). Edite taxonomy.yml, e faça-os coincidirem para evitar inconsistências entre o armazenamento do banco de dados e seus templates."
 "The settings for roles and permissions are stored in <code>%permissions%</code>.": "As definições para papéis e permissões são armazenadas em <code>%permissions%</code>."
