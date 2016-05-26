@@ -1,4 +1,4 @@
-# app/resources/translations/pt_BR/messages.pt_BR.yml – generated on 2016-05-26 13:16:49 UTC
+# app/resources/translations/pt_BR/messages.pt_BR.yml – generated on 2016-05-26 19:22:52 UTC
 
 # Warning: Translations are in the process of being moved to a new keyword-based translation
 #          at the moment. This is an ongoing process. Translations currently in the 
@@ -9,29 +9,15 @@
 #          in order to prevent merge conflicts.
 
 #  no unused messages
-#  16 untranslated messages
+#   2 untranslated messages
 #  60 untranslated keyword based messages
-#  74 translations
+#  88 translations
 # 453 keyword based translations
 
-#--- 16 untranslated messages -------------------------------------------------
+#--- 2 untranslated messages --------------------------------------------------
 
-"Invalid menu path (%PATH%) set in menu.yml. Does not match any configured contenttypes or routes.": #
 "Invalid menu path (%PATH%) set in menu.yml. Probably should be a link: instead!": #
-"Menu item property \"add\" is deprecated. Use \"#\" under \"param\" instead.": #
 "Selectentry": # "Select entry"
-"Testing connection to extension server failed: %errormessage%": #
-"The database needs to be updated/repaired. Go to 'Configuration' > '<a href=\"%link%\">Check Database</a>' to do this now.": #
-"The field %field% has been changed to \"%newValue%\"": #
-"Unable to create directory: %DIR%": #
-"Unable to create file: %FILE%": #
-"Unable to delete directory: %DIR%": #
-"Unable to delete file: %FILE%": #
-"Unable to duplicate file: %FILE%": #
-"Unable to rename directory: %DIR%": #
-"Unable to rename file: %FILE%": #
-"Unfortunately, no content could be found. Try another page, or go to the <a href=\"%paths_root%\">homepage</a>.": #
-"filtered by <em>'%filter%'</em>": #
 
 #--- 60 untranslated keyword based messages -----------------------------------
 
@@ -96,7 +82,7 @@
 "page.extend.message.latest-version": # "The version listed below is the latest stable release as marked by the developer, which is compatible with the version of Bolt you are currently using."
 "page.extend.message.loading-disabled": # "Extensions loading has been disabled by an administrator in the %CONFIG% file. You may install, update and uninstall extensions but they will not load until this setting has been changed."
 
-#--- 74 translations ----------------------------------------------------------
+#--- 88 translations ----------------------------------------------------------
 
 "(default template)": "(template padrão)"
 "(no category)": "(sem categoria)"
@@ -146,8 +132,10 @@
 "Image": "Imagem"
 "Imagelist": "Lista de imagens"
 "Integerfield": "Campo inteiro"
+"Invalid menu path (%PATH%) set in menu.yml. Does not match any configured contenttypes or routes.": "Caminho para menu inválido (%PATH%) determinado em menu.yml. Não corresponde há nenhuma rota ou tipo de conteúdo configurado."
 "Link": "Link"
 "Markdown": "Markdown"
+"Menu item property \"add\" is deprecated. Use \"#\" under \"param\" instead.": "Propriedade do item de menu \\\"add\\\" está depreciado. Ao invés disso use \\\"#\\\" em \\\"param\\\"."
 "Multiselect": "Selecionar vários"
 "Repeater": "Repetidor"
 "Select a page": "Selecione uma página"
@@ -160,7 +148,10 @@
 "Tags": "Tags"
 "Teaser": "Prévia"
 "Template": "Template"
+"Testing connection to extension server failed: %errormessage%": "Teste de conexão para o servidor de extensão falhou: %errormessage%"
 "Textarea": "Área de texto"
+"The database needs to be updated/repaired. Go to 'Configuration' > '<a href=\"%link%\">Check Database</a>' to do this now.": "O banco de dados precisa ser atualizado/reparado. Vá para 'Configurações' > '<a href=\\\"%link%\\\">Verificar bando de dados</a>' para fazer isso agora."
+"The field %field% has been changed to \"%newValue%\"": "O campo %field% foi alterado para \\\"%newValue%\\\""
 "The identifier and slug for '%taxonomytype%' are the not the same ('%slug%' vs. '%taxonomytype%'). Please edit taxonomy.yml, and make them match to prevent inconsistencies between database storage and your templates.": "O identificador e o slug para '%taxonomytype%' não são os mesmos ('%slug%' vs. '%taxonomytype%'). Edite taxonomy.yml, e faça-os coincidirem para evitar inconsistências entre o armazenamento do banco de dados e seus templates."
 "The settings for roles and permissions are stored in <code>%permissions%</code>.": "As definições para papéis e permissões são armazenadas em <code>%permissions%</code>."
 "The slug '%slug%' is used in more than one contenttype. Please edit contenttypes.yml, and make them distinct.": "O slug '%slug%' é usado em mais de um tipo de conteúdo. Edite contenttypes.yml, para torná-los distintos."
@@ -169,9 +160,18 @@
 "This website is <a href='%url%' target='_blank' title='Sophisticated, lightweight & simple CMS'>Built with Bolt</a>.": "Este site é <a href='%url%' target='_blank' title='Sofisticado, leve e simples - CMS Bolt'>Bolt</a>."
 "Title": "Título"
 "Try logging in with your ftp-client and make the file readable. Else try to go <a>back</a> to the last page.": "Tente fazer o login com o seu ftp-client e tornar o arquivo legível. Caso contrário, tente <a>voltar</a> para a última página."
+"Unable to create directory: %DIR%": "Não foi possível criar o diretório: %DIR%"
+"Unable to create file: %FILE%": "Não foi possível criar o arquivo: %FILE%"
+"Unable to delete directory: %DIR%": "Não foi possível deletar o diretório: %DIR%"
+"Unable to delete file: %FILE%": "Não foi possível deletar o arquivo: %FILE%"
+"Unable to duplicate file: %FILE%": "Não foi possível duplicar o arquivo: %FILE%"
+"Unable to rename directory: %DIR%": "Não foi possível renomear o diretório: %DIR%"
+"Unable to rename file: %FILE%": "Não foi possível renomear o arquivo: %FILE%"
+"Unfortunately, no content could be found. Try another page, or go to the <a href=\"%paths_root%\">homepage</a>.": "Infelizmente nenhum coteúdo foi encontrado. Tente outra página, ou vá para <a href=\\\"%paths_root%\\\">página inicial</a>."
 "Video": "Video"
 "View (saved version) on site": "Visualizar (versão salva) no site"
 "You've been logged on successfully.": "Autenticação realizada com sucesso!"
+"filtered by <em>'%filter%'</em>": "filtrado por <em>'%filter%'</em>"
 
 #--- 453 keyword based translations -------------------------------------------
 
